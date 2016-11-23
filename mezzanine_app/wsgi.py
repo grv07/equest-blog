@@ -9,8 +9,8 @@ https://docs.djangoproject.com/en/1.9/howto/deployment/wsgi/
 
 import os, sys
 
-sys.path.append('/home/ubuntu/blog-env/equest-blog/')
-sys.path.append('/home/ubuntu/blog-env/lib/python2.7/site-packages/')
+#sys.path.append('/home/kalle/pyprojects/equest-blog/')
+#sys.path.append('/home/kalle/blog-env/lib/python2.7/site-packages/')
 
 from django.core.wsgi import get_wsgi_application
 from mezzanine.utils.conf import real_project_name
